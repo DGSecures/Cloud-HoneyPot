@@ -25,5 +25,26 @@ The Azure Honeypot Lab project is aimed to establish a cloud enviornment with a 
  - Microsoft Azure
  - Windows 10 Pro
 
-  ## Program Walk-Through
+  ### Program Walk-Through
+  
+<p align="center">
+  Azure Portal Landing Page with Resources Utilized.
+</p>
+
+![Screenshot 2025-03-04 184757](https://github.com/user-attachments/assets/2d39b87c-30c6-4546-9ad7-7f1841e2950a)
+
+<p align="center">
+  Next we create a Virtual Network with a private IP address that our VM will use later on. Virtual Networks create a subnet that can be utilized. 
+</p>
+
+![Screenshot 2025-03-05 201818](https://github.com/user-attachments/assets/dc308fb8-ee1b-4792-9334-909718bc5817)
+
+<p align="center">
+  We then setup our VM within Azure connecting it to our Virtual Network Previously created.
+  It is assigned an IP within the Virtual Network along with a public IP (This is important later)
+  We are able to use RDP to remote into our VM using its public IP address.
+</p>
+
+![Screenshot 2025-03-03 185429](https://github.com/user-attachments/assets/402a66cb-b083-4de7-88c8-86b1bc49506e)
+
 
