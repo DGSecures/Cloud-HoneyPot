@@ -114,4 +114,17 @@ This second map was taken about 6 days after exposing our VM to the internet.
 
 ![Screenshot 2025-03-09 144327](https://github.com/user-attachments/assets/7efdefa8-a1d1-4927-b464-11ce01e0068d)
 
+<p aligh="center">
+What the maps and logs tell us:
+</p>
+<p aligh="center">
+Our maps clearly illustrate the attack scope, demonstrating relentless attempts to exploit vulnerabilites in our systems. When focusing on our logs, we can see that attackers focus on profiles that may contain sensitive information or access to other systems. Our logs show that they seem to try Admin accounts frequently. The motive behind this would possibly be to access other critical systems. We also notice a pattern of profiles that could possibly contain financial information. We see the attackers attempt accounts such as "Finance" and "Sales" possibly hoping to access credit card or other financial information.  
+</p>
 
+## Outcomes
+
+The Azure Honeypot Lab provided a valuable hands-on experience in configuring and deploying a cloud-based SIEM with Azure. Through this process, I was able to deepen my understanding of cloud security principles along with TTPs (Tactics, Techniques, and Procedures) that are utilized by attackers. By analyzing data and corelating it with geographical locations, we are able to identify potential vectors and adjust our security measures.
+
+## Lessons Learned
+
+This project emphasizes the reality that vulnerabilities are not conceptual and are constantly being probed by malicious actors all over the world. The worldwide attacks we visualized on a map remind us that security measures should not be taken lightly and are an absolute necessity whether you are a huge company or just an individual at home. The volume of attacks we saw show the importance of monitoring and incident response to safeguard our digital assets. Let this project serve as a reminder that constant vigilance and security measures are crucial to ensure that our world remains secure. 
